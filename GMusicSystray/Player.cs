@@ -425,9 +425,7 @@ namespace GMusic
         }
         private void gecko_DocumentCompleted(object sender, EventArgs e)
         {
-                gecko.Visible = true;
-            gecko.Document.GetElementById("repeat_mode_button");
-            
+                gecko.Visible = true;            
         }
 
         private void captureBrowserKeysToolStripMenuItem_Click(object sender, EventArgs e)
